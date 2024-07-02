@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #333 ;
+}
+
+header, footer {
+    background-color:goldenrod;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1, footer p {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+section ol {
+    padding-left: 20px; 
+ }
+    section ol li {
+    margin-bottom: 8px; 
+    }
+
+
+
+/*
+section {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensures content doesn't overflow }*/
+
+/*
+section ol {
+    padding-left: 20px; /* Adjust left padding for list }*/
+
+/*
+section ol li {
+    margin-bottom: 8px; /* Adds spacing between list items }*/
+
+
